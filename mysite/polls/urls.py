@@ -4,5 +4,5 @@ from . import views
 from polls.views import index
 
 urlpatterns = [
-    path('', index, name='index'),
+    path('', views.index, name='index'),
 ]
